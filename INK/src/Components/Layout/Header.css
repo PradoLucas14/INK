@@ -1,0 +1,31 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+}
+.navBarTitle{
+    font-size: 26px !important;
+    font-weight: bold;
+}
+.link{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color:rgb(119, 119, 119) !important;
+    transition: 0.2s;
+}
+.link:hover{
+    color: black !important;
+}
+/* En tu archivo de estilos CSS */
+.custom-toggler .navbar-toggler-icon {
+    display: none;
+}
+.custom-toggler{
+    border: none !important;
+}
+.custom-toggler:focus{
+    box-shadow: none !important;
+}
+  

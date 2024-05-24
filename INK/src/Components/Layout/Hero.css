@@ -1,0 +1,16 @@
+.two-columns-container {
+    display: flex; /* Utilizamos flexbox para crear un contenedor de dos columnas */
+    width: 100%; /* Ocupa el 100% del ancho de su contenedor */
+    border: 1px solid red;
+    height: 100vh;
+}  
+.column {
+    flex: 1; /* Cada columna toma una fracción igual del espacio disponible */
+}  
+.left-column {
+    background-color: black; /* Color de fondo para la primera columna */
+}
+.right-column {
+    background-color: aqua;
+}
+  
