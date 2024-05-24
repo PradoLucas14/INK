@@ -1,16 +1,77 @@
 .two-columns-container {
     display: flex; /* Utilizamos flexbox para crear un contenedor de dos columnas */
     width: 100%; /* Ocupa el 100% del ancho de su contenedor */
-    border: 1px solid red;
     height: 100vh;
 }  
 .column {
     flex: 1; /* Cada columna toma una fracción igual del espacio disponible */
 }  
 .left-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: black; /* Color de fondo para la primera columna */
+    padding-top: 50px;
+}
+.text-container p{
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.text-container h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.text-container h5{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: #fff;
+}
+.btn-container{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.btn-container .btn-register{
+    background-color: black;
+    border: #fff 2px solid;
+    width: 340px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn-container .btn-register:hover{
+    background-color: #fff;
+    color: black;
+    font-weight: 700;
+}
+.btn-redes{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: black;
+    border: none;
+    margin: 15px;
+    transition: 0.3s;
+}
+.btn-redes:hover{
+    text-decoration: underline;
 }
 .right-column {
-    background-color: aqua;
+    background-image: url(../../assets/img/imagen2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
-  
+.rigth-colum-overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg , black , rgba(0,0,0,0.2));
+}

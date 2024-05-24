@@ -13,7 +13,9 @@ function App() {
       <div className='header-container'>
         <Header/>
       </div>
-      <Hero/>
+      <div className='hero-container'>
+        <Hero/>
+      </div>
     </>
   )
 }
