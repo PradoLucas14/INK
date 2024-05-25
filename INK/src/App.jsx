@@ -3,6 +3,7 @@ import Header from './Components/Layout/Header'
 import Hero from './Components/Layout/Hero';
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
+import Artists from './Components/Layout/Artists';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       </div>
       <div className='hero-container'>
         <Hero/>
+        <Artists/>
       </div>
     </>
   )
