@@ -1,0 +1,71 @@
+{
+    "admin": [
+        {
+            "id": 1,
+            "nombre": "Admin 1",
+            "rol": "Administrador"
+        },
+        {
+            "id": 2,
+            "nombre": "Admin 2",
+            "rol": "Administrador"
+        }
+    ],
+    "tatuadores": [
+        {
+            "id": 1,
+            "nombre": "Marcos Gutierrez",
+            "especialidad": "Old school",
+            "fotoDePerfil": "https://i2.wp.com/blog.newoldman.com.br/wp-content/uploads/2019/09/Inspiracoes-Para-Tatuagens-Masculinas-2020-23.jpg?resize=500%2C750&ssl=1",
+            "descripcion":"Marcos Gutierrez, hailing from Argentina, is a tattoo artist specializing in old school style. With a keen eye for vintage aesthetics, Marcos brings classic designs to life with bold lines and vibrant colors. Each tattoo he creates is a timeless piece of art, paying homage to traditional tattooing while adding his own unique flair. If you're seeking a tattoo that captures the essence of old school charm, Marcos is the artist for you."
+        },
+        {
+            "id": 2,
+            "nombre": "Elina Marsh",
+            "especialidad": "Minimalist",
+            "fotoDePerfil": "https://i.pinimg.com/736x/da/2b/c0/da2bc0fd3f2afdc992683deb3cb52bb0.jpg",
+            "descripcion":"Hailing from New Jersey, Elina Marsh is a tattoo artist specializing in minimalist style. With a passion for simplicity and elegance, Elina creates designs characterized by clean lines and subtle details. Each tattoo she creates is a personalized work of art, reflecting her clients' identity and desires. If you're looking for a minimalist and meaningful tattoo, Elina is the artist for you."            
+        },
+        {
+            "id": 3,
+            "nombre": "Tania Leal",
+            "especialidad": "Old school",
+            "fotoDePerfil": "https://p4.wallpaperbetter.com/wallpaper/1002/894/393/eyes-tattoo-tattoo-madisonskye-wallpaper-preview.jpg",
+            "descripcion":"Hailing from California, Tania Leal is a tattoo artist specializing in old school style. With a passion for vintage aesthetics, Tania brings classic designs to life with bold lines and vibrant colors. Each tattoo she creates is a timeless piece of art, paying homage to traditional tattooing while infusing her own unique style. If you're looking for a tattoo that embodies old school charm, Tania is the artist for you."
+        },
+        {
+            "id": 4,
+            "nombre": "Nahuel Gonzalez",
+            "especialidad": "Blackout",
+            "fotoDePerfil": "https://img.freepik.com/fotos-premium/hombre-tiro-medio-tatuajes_23-2149028705.jpg?size=626&ext=jpg",
+            "descripcion":"Hailing from Madrid, Spain, Nahuel Gonzalez is a tattoo artist specializing in blackout style. With a knack for bold, solid designs, Nahuel brings a contemporary edge to the art of blackout tattoos. Each piece he creates is a striking statement, blending modern aesthetics with traditional tattooing techniques. If you're seeking a bold and distinctive blackout tattoo, Nahuel is the artist to see."
+        },
+        {
+            "id": 5,
+            "nombre": "Mia Santos",
+            "especialidad": "Blackout",
+            "fotoDePerfil": "https://adnoticias.mx/wp-content/uploads/2022/02/tatuadoras-Toluca-1.jpeg",
+            "descripcion":"Hailing from Miami, Mia Santos is a tattoo artist specializing in blackout style. With a talent for creating bold and striking designs, Mia brings a contemporary flair to the art of blackout tattoos. Each piece she creates is a unique statement, blending modern aesthetics with traditional tattooing techniques. If you're looking for a bold and distinctive blackout tattoo, Mia is the artist to see."
+        },
+        {
+            "id": 6,
+            "nombre": "Morgan Jones",
+            "especialidad": "Blackwork",
+            "fotoDePerfil": "https://cdn.bioguia.com/embed/de7ea7ce36326520747cdb93ff1683130487/tatuajes.jpeg?imagick=1&size=500",
+            "descripcion":"Hailing from New Jersey, Morgan Jones is a tattoo artist specializing in blackwork style. With a passion for intricate designs and solid black ink, Morgan brings a bold and distinctive edge to her work. Each tattoo she creates is a unique expression of artistry and individuality, blending contemporary aesthetics with traditional tattooing techniques. If you're seeking a bold and captivating blackwork tattoo, Morgan is the artist to see."
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "Cliente 1",
+            "email": "cliente1@example.com"
+        },
+        {
+            "id": 2,
+            "nombre": "Cliente 2",
+            "email": "cliente2@example.com"
+        }
+    ]
+  }
+  
