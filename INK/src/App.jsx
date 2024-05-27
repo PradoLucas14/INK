@@ -4,8 +4,7 @@ import Hero from './Components/Layout/Hero';
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Artists from './Components/Layout/Artists';
-{/*import EmployeeCard from './Components/Layout/TarjetsArtist';*/}
-import CarouselEmployees from '../src/Components/Test/Test1';
+import CarouselEmployees from '../src/Components/Layout/CarouselTarjets';
 
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
       <div className='hero-container'>
         <Hero/>
         <Artists/>
-        {/*EmployeeCard*/}
         <CarouselEmployees/>
       </div>
     </>
